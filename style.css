@@ -1,0 +1,661 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+:root {
+    --min-color: rgb(4, 185, 125);
+}
+
+body {
+    min-height: 300vh;
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a:hover {
+    color: #000;
+    letter-spacing: 2;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+
+}
+
+/*the nav bar css star   */
+nav {
+    width: 100%;
+    padding: 3px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-image: linear-gradient(to left, #181717e8, rgb(5, 179, 83))
+}
+
+.logo {
+    width: fit-content;
+
+}
+
+.logo h2 {
+    font-size: 35px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+
+
+}
+
+span {
+    color: rgba(34, 255, 34, 0.986);
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+
+/*links*/
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.links .thesection {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thesection a {
+    padding: 3px 20px;
+
+    border-radius: 25px;
+
+    font-family: system-ui;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.links .hover {
+    color: #1d1919;
+    padding: 0px 10px;
+    background-color: #ffffff;
+}
+
+
+/*land css star*/
+
+.land {
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2019/08/26/10/10/leaves-4431306_640.jpg);
+    height: 100vh;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo h4 {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 155px;
+}
+
+.logo p {
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.logo .bt {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    font-family: "Great Vibes", cursive;
+    color: whitesmoke !important;
+    font-weight: bold;
+}
+
+
+/* about  csss star*/
+.about {
+    width: 100%;
+
+
+    padding: 30px;
+    position: relative;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-box {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+img {
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+
+
+    object-position: center;
+}
+
+
+.text {
+    flex: 1;
+    padding: 30px;
+}
+
+.text h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+
+    color: whitesmoke;
+
+    font-family: "Knewave", system-ui;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.text h4 {
+    color: ghostwhite;
+    font-family: "Knewave", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.co {
+    position: absolute;
+
+    bottom: 180px;
+    width: 30%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+
+}
+
+.co a {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Knewave", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    background-image: linear-gradient(to left, #b9b7b7e8, rgb(7, 156, 74), rgb(53, 61, 50))
+}
+
+.co:hover {
+
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+
+/*prodact */
+.pordact {
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.top {
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+
+    padding: 10px;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+.card {
+    width: 1fr;
+    background-color: rgb(2, 59, 40);
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.container:hover>.card:not(:hover) {
+    opacity: 0.5;
+    filter: blur(1.5);
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: rgb(4, 124, 84);
+}
+
+.imgbox {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.inf {
+    width: 100%;
+
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+.inf span {
+    font-family: "Knewave", system-ui;
+    color: antiquewhite;
+}
+
+.inf h2 {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    color: antiquewhite;
+}
+
+
+/*راي الناس-*/
+.cards {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.carde {
+    width: 400px;
+    background-color: rgb(110, 97, 97);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.toop {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    text-transform: capitalize;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 300;
+
+}
+
+.bd {
+    width: 100%;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 500;
+}
+
+.carde:hover {
+
+    box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.3);
+}
+
+
+/*anmition */
+.con {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.cards {
+    animation: moveRight 10s linear infinite;
+
+}
+
+.cards:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/*form contact algg*/
+form {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: start;
+
+    flex-direction: column;
+}
+
+.toop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+
+
+}
+
+.toop div,
+.bt div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+}
+
+input:focus,
+textarea:focus {
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+    border: #bb1010 1px solid;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bt {
+    display: flex;
+    align-items: end;
+    width: 100%;
+    margin-top: 20px;
+}
+
+textarea {
+    height: 112px;
+    width: 521px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+}
+.submit{
+    width: 250px;
+    height: 50px;
+    background-color: rgba(5, 139, 94, 0.726);
+    border: none;
+    outline: none;
+    font-family: "Audiowide", sans-serif;
+    border-radius: 10px;
+    font-size: 19px;
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
+}
+.submit:hover{
+    background-color:   rgb(5, 139, 95);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/*foter*/
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(39, 37, 37);
+}
+
+footer .count .top {
+    text-align: center;
+}
+
+.count {
+    width: 100%;
+}
+
+/*الجزء العلوي*/
+footer .top {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.top h3 {
+
+    padding: 0;
+    margin: 0;
+}
+
+.top p {
+    font-family: "Changa", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(11, 179, 67);
+}
+
+.top .t {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 15%;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.t span {
+    padding: 0;
+    margin: 0;
+    color: rgb(4, 185, 125) !important;
+}
+
+/*الصح حنا*/
+.bod {
+    width: 70%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 40px;
+
+}
+
+footer ul {
+    list-style: circle;
+    padding: 10px 20px;
+}
+
+footer .tp {
+    font-size: 18px;
+    margin-bottom: 10x;
+    text-transform: capitalize;
+    font-family: system-ui;
+    font-weight: 700;
+
+}
+
+footer li {
+    font-size: auto;
+    font-weight: 700;
+    color: rgb(148, 143, 143);
+    text-decoration: 1px beige dotted;
+    text-indent: -2px;
+    transition: 0.2s ease-in-out;
+    font-family: system-ui;
+    font-weight: 300;
+}
+
+footer li:hover {
+    font-weight: 900;
+    color: rgb(233, 218, 218);
+    transform: scale(1.05);
+    text-indent: -3px;
+    text-transform: capitalize;
+    list-style: circle;
+
+}
+
+/*جزي المطورين والمصمم*/
+.info {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui;
+}
+
+.info div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info a {
+    color: rgb(148, 143, 143);
+
+}
+
+.info h3 {
+    color: rgb(255, 255, 255);
+}
+
+.info a:hover {
+    letter-spacing: 1.5px;
+    color: rgb(219, 192, 192);
+    margin-left: 3px;
+
+}
+
+.d3 {
+    font-weight: 900;
+    font-family: cursive;
+    font-size: smaller;
+}
+
+
+@media (max-width: 768px) {}
