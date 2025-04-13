@@ -16,7 +16,8 @@ html {
 
 body {
 
-    background-image: linear-gradient(to left ,  #181717e8 , rgb(5, 179, 83)); color: #ffffff;
+    background-image: linear-gradient(to left, #181717e8, rgb(5, 179, 83));
+    color: #ffffff;
 
 }
 
@@ -289,11 +290,10 @@ img {
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5px;
-
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
     padding: 10px;
     width: 95%;
     margin: auto;
@@ -498,7 +498,8 @@ textarea {
     font-family: "Audiowide", sans-serif;
     text-align: center;
 }
-.submit{
+
+.submit {
     width: 250px;
     height: 50px;
     background-color: rgba(5, 139, 94, 0.726);
@@ -510,158 +511,91 @@ textarea {
     color: whitesmoke;
     transition: 0.5s ease-in-out;
 }
-.submit:hover{
-    background-color:   rgb(5, 139, 95);
+
+.submit:hover {
+    background-color: rgb(5, 139, 95);
     cursor: pointer;
     transform: scale(1.05);
 }
 
-/*foter*/
-
-footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-color: rgb(39, 37, 37);
-}
-
-footer .count .top {
-    text-align: center;
-}
-
-.count {
-    width: 100%;
-}
-
-/*الجزء العلوي*/
-footer .top {
-    width: 100%;
-    padding: 20px;
-
-}
-
-.top h3 {
-
-    padding: 0;
-    margin: 0;
-}
-
-.top p {
-    font-family: "Changa", sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    color: rgb(11, 179, 67);
-}
-
-.top .t {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    width: 15%;
-    margin: auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-.t span {
-    padding: 0;
-    margin: 0;
-    color: rgb(4, 185, 125) !important;
-}
-
-/*الصح حنا*/
-.bod {
-    width: 70%;
-    margin: auto;
-
-    display: flex;
-    justify-content: space-around;
-
-    margin-top: 40px;
-
-}
-
-footer ul {
-    list-style: circle;
-    padding: 10px 20px;
-}
-
-footer .tp {
-    font-size: 18px;
-    margin-bottom: 10x;
-    text-transform: capitalize;
-    font-family: system-ui;
-    font-weight: 700;
-
-}
-
-footer li {
-    font-size: auto;
-    font-weight: 700;
-    color: rgb(148, 143, 143);
-    text-decoration: 1px beige dotted;
-    text-indent: -2px;
-    transition: 0.2s ease-in-out;
-    font-family: system-ui;
-    font-weight: 300;
-}
-
-footer li:hover {
-    font-weight: 900;
-    color: rgb(233, 218, 218);
-    transform: scale(1.05);
-    text-indent: -3px;
-    text-transform: capitalize;
-    list-style: circle;
-
-}
-
-/*جزي المطورين والمصمم*/
-.info {
-    width: 90%;
-    margin: auto;
-    margin-top: 30px;
-    padding: 10px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: system-ui;
-}
-
-.info div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.info a {
-    color: rgb(148, 143, 143);
-
-}
-
-.info h3 {
-    color: rgb(255, 255, 255);
-}
-
-.info a:hover {
-    letter-spacing: 1.5px;
-    color: rgb(219, 192, 192);
-    margin-left: 3px;
-
-}
-
-.d3 {
-    font-weight: 900;
-    font-family: cursive;
-    font-size: smaller;
-}
 
 
 
 
 /*را ي الزبائن*/
-.pepol{
+.pepol {
     font-family: "Changa", sans-serif;
+}
+
+
+/*foter*/
+.foter {
+    background: rgb(0, 0, 0);
+
+   
+
+    box-shadow: 0 -15px 30px rgba(0, 255, 170, 0.8);
+
+
+    transition: 0.5s ease-in-out;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 2px;
+
+}
+
+.foter h2 {
+    font-size: 40px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: whitesmoke;
+}
+
+.foter p {
+    font-family: "Knewave", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--min-color);
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+
+
+.foter ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.dz {
+    font-size: 23px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.dz:hover {
+    transform: rotate(360deg);
+    /* تدوير كامل عند التمرير */
+}
+
+.rights {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 7px;
+}
+
+.rights a:hover {
+    letter-spacing: 1.5px;
 }

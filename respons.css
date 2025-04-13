@@ -1,69 +1,107 @@
-body{
+body {
 
     color: black;
-  
+
 }
 
 
 /*nav bar*/
-nav{
+nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.links{
-    width: 100%;
+
+.links {
+    width: auto;
 }
-.card{
+
+.cards {
+    gap: 10px;
+}
+
+.card {
     flex-shrink: 0;
     width: 35%;
     padding: 5px;
     flex: 1;
 }
-.container{
+
+.container {
     width: 100% !important;
     padding: 15px;
     flex-wrap: wrap;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
 }
-.im{
-display: none;
+
+.im {
+    display: none;
 
 }
-.about{
+
+.about {
     padding: 0;
-  
+
 }
-.co a{
+
+.co a {
     display: none;
 }
+
 .logo h4 {
     font-size: 55px;
 }
+
 .inf h2 {
     font-size: 15px;
 }
-.inf span{
+
+.inf span {
     font-size: 10px;
 }
-.carde{
+
+.carde {
     width: 300px !important;
     flex-shrink: 0;
 }
-.p{
+
+.p {
     font-size: 20px;
     color: whitesmoke;
     width: 100%;
 }
-footer{
-    width: 100%;
-  
+
+
+.toop {
+    flex-wrap: wrap;
 }
-form{
-    display: none;
+
+input {
+    width: auto;
 }
- footer .d2 , footer .d1{
-    display: none;
+
+.toop {
+    color: whitesmoke;
+    font-size: larger;
 }
-.inf{
-    text-align: center;
+
+.bt {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+textarea {
+    width: auto;
+}
+
+.foter h2 {
+    font-size: 25px;
+}
+
+.foter p {
+    font-size: 9px;
 }
