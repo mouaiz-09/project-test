@@ -4,6 +4,9 @@ body {
 
 }
 
+:root {
+    --min-color: rgb(4, 185, 125);
+}
 
 /*nav bar*/
 nav {
@@ -106,5 +109,6 @@ textarea {
     font-size: 9px;
 }
 .rights a{
-    font-size: 10px;
+    font-size: 9px;
+    font-family: "Audiowide", sans-serif;
 }

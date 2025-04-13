@@ -594,6 +594,7 @@ textarea {
     flex-direction: column;
     gap: 2px;
     margin-top: 7px;
+    font-family: "Audiowide", sans-serif;
 }
 
 .rights a:hover {
