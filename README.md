@@ -9,9 +9,11 @@ We believe that sustainability is not just a choice — it's a lifestyle.
 
 ## 🖼️ Preview
 
-![screenshot1](./screenshot1.png)  
-![screenshot2](./screenshot2.png)  
-![screenshot3](./screenshot3.png)
+![screenshot1](/Screenshot%20from%202025-04-14%2000-16-42.png)  
+![screenshot2](/Screenshot%20from%202025-04-14%2000-17-00.png)  
+![screenshot3](/Screenshot%20from%202025-04-14%2000-17-07.png)
+![screenshot3](/Screenshot%20from%202025-04-14%2000-17-16.png)
+![screenshot3](/Screenshot%20from%202025-04-14%2000-17-29.png)
 
 ---
 
