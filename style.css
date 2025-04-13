@@ -15,7 +15,8 @@ html {
 }
 
 body {
-    min-height: 300vh;
+
+    background-image: linear-gradient(to left ,  #181717e8 , rgb(5, 179, 83)); color: #ffffff;
 
 }
 
@@ -438,7 +439,7 @@ form {
 
 .toop {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     width: 100%;
 
 
@@ -660,4 +661,7 @@ footer li:hover {
 
 
 
-@media (max-width: 768px) {}
+/*را ي الزبائن*/
+.pepol{
+    font-family: "Changa", sans-serif;
+}
